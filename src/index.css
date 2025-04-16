@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import "tailwindcss"; */
+
+@font-face {
+  font-family: "Berlin Sans FB";
+  src: url("../src/assets/fonts/berlinsansfb_reg.ttf");
+}
+.font-berlin {
+  font-family: "Berlin Sans FB", sans-serif;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../src/assets//fonts/Gilroy-Medium.ttf");
+}
+.font-Gilroy-Medium {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../src/assets/fonts/Gilroy-Regular.ttf");
+}
+.font-Gilroy-Regular {
+  font-family: "Gilroy-Regular";
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../src/assets/fonts/Gilroy-SemiBold.ttf");
+}
+.font-Gilroy-SemiBold {
+  font-family: "Gilroy-SemiBold";
+}
+@font-face {
+  font-family: "Gilroy-SemiBold-Italic";
+  src: url("../src/assets/fonts/Gilroy-SemiBoldItalic.ttf");
+}
+.font-Gilroy-SemiBold-Italic {
+  font-family: "Gilroy-SemiBold-Italic";
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../src/assets/fonts/Gilroy-Bold.ttf");
+}
+.font-Gilroy-Bold {
+  font-family: "Gilroy-Bold";
+}
+@font-face {
+  font-family: "Gilroy-RegularItalic";
+  src: url("../src/assets/fonts/Gilroy-RegularItalic.ttf");
+}
+.font-Gilroy-RegularItalic {
+  font-family: "Gilroy-RegularItalic";
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../src/assets/fonts/Gilroy-Light.ttf");
+}
+.font-Gilroy-Light {
+  font-family: "Gilroy-Light";
+}
+/* In your global CSS */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* Add this to hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
