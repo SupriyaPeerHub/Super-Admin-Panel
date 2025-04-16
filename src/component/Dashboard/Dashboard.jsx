@@ -6,28 +6,11 @@ import Knowledge from "../../assets/img/Knowledge.png";
 import HR from "../../assets/img/HR.png";
 import User from "../../assets/img/User.png";
 
-// function IconCard({ title, children }) {
-//   return (
-//     <div className="flex flex-col justify-center items-center border border-[#BEBAB9] h-[319px] w-[405px]">
-//       <div className="w-24 h-24 bg-[#F15A2B] rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow duration-300">
-//         {children}
-//       </div>
-//       <span className="text-white font-Gilroy-Medium text-[18px] pt-3">
-//         {title}
-//       </span>
-//     </div>
-//   );
-// }
-// 
-
 function Dashboard() {
   return (
-    // <div className="flex h-[640px] ml-6 mb-6 mr-6  bg-[#243139] border border-[#BEBAB9] rounded-lg">
     <div className="flex h-auto ml-6 mb-6 mr-6 bg-[#243139] border border-[#BEBAB9] rounded-lg overflow-x-auto">
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 cursor-pointer"> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full">
         {/* App Admin Panel */}
-        {/* <div className="flex flex-col justify-center items-center h-[319px] w-[405px] border-r border-[#BEBAB9]"> */}
         <div className="flex flex-col justify-center items-center h-[319px]  w-full max-w-[405px] border-r border-[#BEBAB9]">
           <div className="w-24 h-24 bg-[#F15A2B] rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow duration-300">
             <img src={App} alt="App" className="w-[35px] h-[55px]" />
@@ -42,7 +25,7 @@ function Dashboard() {
           </div>
         </div>
         {/* Website Admin Panel */}
-        <div className="flex flex-col justify-center items-center h-[319px]  w-full max-w-[405px] border-r border-[#BEBAB9]">
+        <div className="flex flex-col justify-center items-center h-[319px]  w-full max-w-[405px] border-t border-[#BEBAB9] md:border-r md:border-[#BEBAB9] ">
           <div className="w-24 h-24 bg-[#F15A2B] rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow duration-300">
             <img src={Website} alt="Website" className="w-[55px] h-[55px]" />
           </div>
@@ -56,7 +39,7 @@ function Dashboard() {
           </div>
         </div>
         {/* Chapter Management Admin Panel */}
-        <div className="flex flex-col justify-center items-center h-[319px]  w-full max-w-[405px]">
+        <div className="flex flex-col justify-center items-center h-[319px] w-full max-w-[405px] border-t border-[#BEBAB9] md:border-r md:border-[#BEBAB9]">
           <div className="w-24 h-24 bg-[#F15A2B] rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow duration-300">
             <img src={Chapter} alt="Chapter" className="w-[55px] h-[55px]" />
           </div>
